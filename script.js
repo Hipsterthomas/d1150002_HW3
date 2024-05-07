@@ -7,7 +7,7 @@ function  click(){
     }
     else{
         alert("Congratulations!! You have been hacked\n"+"Your Email is: "+email+"\nYour Password is: "+passwd);
-        alert("SO GO TO STUDY YOU LITTLE \"DUMB\" ASS!!!");
+        alert("SO GO TO STUDY!!!");
         setTimeout(window.location.href = "https://ilearn.fcu.edu.tw/",500)
     }
 }
