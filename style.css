@@ -1,0 +1,179 @@
+body{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+html {
+    height: 100%;
+}
+
+.bg{
+    width: 414px;
+    height: 933.43px;
+}
+.login-frame{
+    background-color: #F7F7F7;
+    justify-content: center;
+    align-items: center;
+
+}
+.toparea{
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    background-color: black;
+    width: 100%;
+    height: 256px;
+    border-bottom-right-radius: 90px;
+}
+.imgdigitimes{
+    height: 90%;
+    width: 100%;
+    /*top: 45%;*/
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.digitimeslogo{
+    /*position: absolute;*/
+    justify-content: center;
+    height: 38.43px;
+    /*margin: auto;*/
+}
+.text{
+    display: flex;
+    color: white;
+    align-items: flex-start;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.bottomarea {
+    width: 100%;
+    height: 676px;
+
+}
+.emailinputdiv{
+    background-color: #ffffff;
+    margin-top: 20px;
+    margin-left: 5%;
+    width: 80%;
+    height: 45px;
+    display: flex;
+    border-radius: 100px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    margin-bottom: 25px;
+    padding: 5px 20px;
+}
+.imgin{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.emailinput{
+    width: 100%;
+    height: 20px;
+    outline: none;
+    border: none;
+    font-size: 14px;
+}
+::placeholder{
+    color: lightgray;
+}
+.rememberframe{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mycheckbok{
+    display: inline-flex;
+    position: relative;
+    padding-left: 22px;
+}
+.rem{
+    padding-right: 22px;
+    text-decoration: none;
+    color: #333333;
+}
+.button{
+    font-size: 100%;
+    width: 80%;
+    margin-left: 10%;
+    height: 45px;
+    background-color: #F49C00;
+    color: #fff;
+    outline: none;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    transform: translate3d(0, 0, 0);
+    transition: background 400ms cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    margin-top: 30px;
+}
+.info-frame{
+    width: 75%;
+    margin-left: 9%;
+    display: block;
+    margin-top: 20px;
+    line-height: 14px;
+    font-size: 14px;
+    background-color: #ffffff;
+    border: 1px solid #e8e8e8;
+    border-radius: 4px;
+    padding: 10px;
+}
+ul{
+    counter-reset: number;
+    -webkit-text-size-adjust: 100%;
+    font-family: "微軟正黑體", sans-serif;
+    font-weight: 400;
+    color: #333333;
+    line-height: 1.8;
+    font-size: 14px;
+    box-sizing: inherit;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+li{
+    -webkit-text-size-adjust: 100%;
+    font-family: "微軟正黑體", sans-serif;
+    font-weight: 400;
+    color: #333333;
+    line-height: 1.8;
+    font-size: 14px;
+    list-style: none;
+    box-sizing: inherit;
+    display: flex;
+    align-items: flex-start;
+}
+li::before{
+    counter-increment: number;
+    content: counter(number);
+    background-color: #222222;
+    color: #ffffff;
+    border-radius: 100%;
+    display: inline-flex;
+    justify-content: center;
+    min-width: 16px;
+    width: 16px;
+    height: 16px;
+    font-size: 12px;
+    line-height: 16px;
+    margin-right: 8px;
+    margin-top: 4px;
+}
+.copyright{
+    margin-top: 20px;
+    color: #aaa;
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+}
