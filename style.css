@@ -13,7 +13,6 @@ body{
     background-color: #F7F7F7;
     justify-content: center;
     align-items: center;
-
 }
 .toparea{
     display: flex;
@@ -26,7 +25,6 @@ body{
 .imgdigitimes{
     height: 90%;
     width: 100%;
-    /*top: 45%;*/
     align-items: center;
     display: flex;
     justify-content: center;
