@@ -120,8 +120,6 @@ body{
 }
 ul{
     counter-reset: number;
-    -webkit-text-size-adjust: 100%;
-    font-family: "微軟正黑體", sans-serif;
     font-weight: 400;
     color: #333333;
     line-height: 1.8;
@@ -132,8 +130,6 @@ ul{
     margin: 0px;
 }
 li{
-    -webkit-text-size-adjust: 100%;
-    font-family: "微軟正黑體", sans-serif;
     font-weight: 400;
     color: #333333;
     line-height: 1.8;
